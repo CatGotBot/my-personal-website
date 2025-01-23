@@ -33,6 +33,7 @@ h1 {
     width: 500px;
     border: 1px solid black;
     margin-left: 20px;
+    z-index: 1;
 }
 
 body {
@@ -53,9 +54,18 @@ header img {
   height: 150%;
   width: 80px;
   border: 1px solid;
-
+  z-index: 3;
 }
 
 .link {
   size-adjust: 10px;
+}
+
+.snowboarding {
+  transition: width 2s;
+  width: 200px;
+}
+
+.snowboarding:hover {
+width: 300px;
 }
