@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kseniia's Website</title>
+    <title>Contact Me</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <script src="javascript.js"></script>
 </head>
 
 <body>
@@ -23,34 +22,27 @@
             <a href="index.html">Home</a>
             <a href="about.html">About Me</a>
             <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact Me</a>
+            <!-- <a href="index.html">Contact</a> -->
 
 
         </nav>
     </header>
 
-
     <main>
 
-        <h3>
-            Web Developer
-        </h3>
+        <form action="mailto:kseniiakopylova3@gmail.com" method="post">
 
-        <div>
-            <img src="img/Prom.jpg" alt="Picture of Kseniia Kopylova">
+            <label for="name">Name:</label><input type="text" name="name" id="name">
+            <label for="email">Email:</label><input type="email" name="email" id="email">
+            <label for="message">Message:</label><textarea name="message" id="message">Type your message here</textarea>
+            <button type="submit">Submit</button>
 
-            <p> Interested in improving my skills and developing portfolio. So later I can improve the world around me
-                and
-                continue making the world a better place.
-                <br>
-                ― Pele
-            </p>
-        </div>
-
+        </form>
 
     </main>
 
     <footer>
+
         <div class="link">
             <a href="https://www.linkedin.com/in/kseniia-kopylova/">
                 <img src="img/linkedin.png" alt="LinkedIn">
@@ -61,6 +53,7 @@
                 <img src="img/prentus_logo.jpg" alt="Prentus">
             </a>
         </div>
+
     </footer>
 
 </body>

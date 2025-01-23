@@ -1,18 +1,31 @@
 /* All the commented code is from my previous attemp to create my own website for this class, I left it to potentially use it later! */
-.header,
+
 footer {
-    font-size: 15px;
-    display: Center;
-    color: rgb(0, 0, 0);
-    text-align: left;
-    background-color: rgb(244, 189, 189);
-    /* padding-left: 10px; */
+  font-size: 15px;
+  display: Center;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  background-color: rgb(244, 189, 189);
 }
 
-/* .connect-link {
-  
-  padding-left: 10px;
-} */
+header {
+  display: flex;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  align-content: center;
+  background-color: beige;
+  justify-content: space-between;
+  height: 150px;
+  width: 100%;
+  align-items: end;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: end;
+}
 
 h1 {
     font-size: 25px;
@@ -23,55 +36,26 @@ h1 {
 }
 
 body {
-    background-color: rgb(201, 173, 230);
-    margin: 0px;
+  background-color: rgb(201, 173, 230);
+  margin: 0px;
 }
 
-/* .my-img,
-.quotes { */
+
 p {
-    background-color: rgb(178, 178, 178);
-    padding: 10px;
-    width: 215px;
-    height: 156px;
-    border: 1px solid;
-    /* position: absolute;
-    left:10%; */
-
+  background-color: rgb(178, 178, 178);
+  padding: 10px;
+  width: 215px;
+  height: 156px;
+  border: 1px solid;
 }
 
-/* .description-flexbox {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  margin: 50px 10px;
-} */
-
-/* .quotes 
-{
-margin: 50px;
-} */
-
-/* #quates-img,
-#my-img 
-{
-  background-color: transparent;
-  padding: 0;
-  border: 0px solid;
-} */
-
-img {
-    /* margin-bottom: -20px; */
-    width: 265px;
-    border: 1px solid;
+header img {
+  height: 150%;
+  width: 80px;
+  border: 1px solid;
 
 }
 
 .link {
-    size-adjust: 10px;
+  size-adjust: 10px;
 }
-
-/* footer
-{
-  align-self: auto;
-} */
